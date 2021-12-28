@@ -21,10 +21,25 @@ function Person(name, age) {
     this.stomach = [];
   };
 }
+function Baby(name, age, favoriteToy) {
+  Person.call(this);
+  this.name = name;
+  this.age = age;
+  this.favoriteToy = favoriteToy;
+}
+Baby.prototype = Object.create(Person.prototype);
+Baby.prototype.play = function () {
+  return `PLaying with ${this.favoriteToy}`;
+};
 
-const person1 = new Person('Mary', 50);
-person1.eat('fish', 'sushi', 'burger', 'fries', 'pizza', 'salade');
-console.log(person1.stomach);
-person1.poop();
-console.log(person1.stomach);
-console.log(person1.toString());
+const Mary = new Person('Mary', 50);
+Mary.eat('fish', 'sushi', 'burger', 'fries', 'pizza', 'salade');
+console.log(Mary.stomach);
+Mary.poop();
+console.log(Mary.stomach);
+console.log(Mary.toString());
+const Davit = new Baby('Davit', 8, 'chess');
+console.log(Davit.toString());
+Davit.eat('soupe');
+console.log(Davit.stomach);
+console.log(Davit.play());
