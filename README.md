@@ -17,7 +17,7 @@ calculator.multiply(10, 5);
 calculator.divide(10, 5);
 ```
 
-[click to see solution]()
+[click to see solution](https://github.com/Gayane25/This-New/blob/master/Calculator.js)
 
 ## Person
 
