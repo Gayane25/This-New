@@ -63,7 +63,7 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 - STRETCH: A car which runs out of `fuel` while driving can't drive any more distance:
 - The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer` .
 
-[click to see solution]()
+[click to see solution](https://github.com/Gayane25/This-New/blob/master/CarConstructor.js)
 
 ## Baby Constructor
 
