@@ -47,7 +47,8 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 - When an instance poops, its `stomach` should empty.
 - Give instances of Person a method `.toString()`
 - It should return a string with `name` and `age` . Example: `"Mary, 50"`
-  [click to see solution]()
+
+  [click to see solution](https://github.com/Gayane25/This-New/blob/master/PersonAndBaby.js)
 
 ## Car Constructor
 
@@ -71,7 +72,7 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 - Besides the methods on Person.prototype, babies have the ability to `.play()`
 - Should return a string "Playing with x", x being the favorite toy.
 
-[click to see solution]()
+[click to see solution](https://github.com/Gayane25/This-New/blob/master/PersonAndBaby.js)
 
 ## Playlist
 
