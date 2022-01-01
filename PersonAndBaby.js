@@ -26,11 +26,10 @@ function Baby(name, age, favoriteToy) {
   this.name = name;
   this.age = age;
   this.favoriteToy = favoriteToy;
+  this.play = function () {
+    return `PLaying with ${this.favoriteToy}`;
+  };
 }
-Baby.prototype = Object.create(Person.prototype);
-Baby.prototype.play = function () {
-  return `PLaying with ${this.favoriteToy}`;
-};
 
 const Mary = new Person('Mary', 50);
 Mary.eat('fish', 'sushi', 'burger', 'fries', 'pizza', 'salade');
