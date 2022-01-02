@@ -97,4 +97,4 @@ playlist.stop(); // Hey Jude stopped
 playlist.play(); // Hey Jude started
 ```
 
-[click to see solution]()
+[click to see solution](https://github.com/Gayane25/This-New/blob/master/PlayList.js)
